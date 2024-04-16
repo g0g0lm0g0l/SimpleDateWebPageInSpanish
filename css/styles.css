@@ -1,8 +1,12 @@
 body {
-	background-color: BLACK;
+	background-color: #3C004A;
 }
 
 h1 {
 	color: WHITE;
 	font-family: Arial;
+}
+
+h2 {
+	color : RED;
 }
