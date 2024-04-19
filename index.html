@@ -5,11 +5,25 @@
 		<meta charset = "UTF-8">
 		<meta name = "viewport" content = "width=device-width", initial-scale = 2">
 		<link rel = "stylesheet" href = "css/styles.css">
+		<script type = "text/javascript" src="javaScript/script.js"></script>
+		<style>
+		.button {
+			background-color: black;
+			width : 600px;
+			font-size: 20px;
+			padding: 10px;
+			border-radius: 40px;
+			border: 3px solid #E032f9;
+			color: white;
+			cursor: pointer;
+			}
+		</style>
 	</head>
-	<body onload = "drawCircle();">
-		<script src = "javaScript/script.js"></script>
-		<canvas id = "id_circle" width = "200" height = "200"></canvas>
-		<canvas id = "id_circle_two" width = "200" height = "200"></canvas>
+	<body onload = "drawCircle()">
+		<canvas id = "id_circle" class = "canvas"  width = "200" height = "200"></canvas>
+		<canvas id = "id_circle_two" class = "canvas" width = "200" height = "200"></canvas>
+		<body>
+			<button  class="button"  width = "600" height = "600" onclick="showDate()">showDate</button>
 		<p></p>
 		<canvas id = "id_circle_three" width = "250" height = "400"></canvas>
 	</body>
